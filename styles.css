@@ -1,9 +1,13 @@
 html {
     background-color: grey;
+    font-family: "Orbitron";
 }
 
 @media (hover: hover) {
-    
+    a:hover {
+        color: skyblue;
+        transition: 0.5s;
+    }
 }
 
 #navbar {
