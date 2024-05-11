@@ -2,10 +2,10 @@ html {
     background-color: grey;
 }
 
-#navbar {
-    top: 0;
-}
-
 @media (hover: hover) {
     
+}
+
+#navbar {
+    top: 0;
 }
