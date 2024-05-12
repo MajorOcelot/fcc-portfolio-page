@@ -1,5 +1,6 @@
 html {
-    background-color: grey;
+    display: flex;
+    background-color: black;
     font-family: "Orbitron";
 }
 
@@ -10,6 +11,37 @@ html {
     }
 }
 
+#nameheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+}
+
+#nameheaderh1, #nameheaderh2a, #nameheaderh2b {
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
 #navbar {
     top: 0;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+#welcome_intro_text {
+    font-size: 18px;
+    color: white;
 }
