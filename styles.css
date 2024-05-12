@@ -13,7 +13,7 @@ html {
     }
 }
 
-#nameheader, #welcomeh1, #navbar, #welcome_intro_text, #links, #projectsh1 {
+#nameheader, #welcomeh1, #navbar, #welcome_intro_text, #links, #projectsh1, .projectlink {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
@@ -52,11 +52,11 @@ html {
     margin-top: 3rem;
 }
 
-#links, #profile-links, #projectsh1 {
+#links, #profile-links, #projectsh1, #project-container {
     margin-top: 3rem;
 }
 
-#profile-links {
+#profile-links, #project-container {
     display: flex;
     flex-direction: column;
     font-size: 20px;
