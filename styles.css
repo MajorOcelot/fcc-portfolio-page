@@ -14,7 +14,8 @@ html {
 }
 
 #nameheader, #welcomeh1, #navbar, #welcome_intro_text, #links {
-    padding-left: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 #nameheader {
