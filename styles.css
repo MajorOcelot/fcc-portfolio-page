@@ -1,5 +1,6 @@
 html {
     display: flex;
+    justify-content: center;
     background-color: black;
     font-family: "Orbitron";
     padding: 2rem;
@@ -10,6 +11,10 @@ html {
         color: white;
         transition: 0.5s;
     }
+}
+
+#nameheader, #welcomeh1, #navbar, #welcome_intro_text, #links {
+    padding-left: 1rem;
 }
 
 #nameheader {
@@ -26,13 +31,10 @@ html {
 #nameheaderh1, #nameheaderh2a, #nameheaderh2b {
     margin: 0;
     color: white;
+    padding: 0.35rem;
 }
 
-#welcomeh1 {
-    color: #199515;
-}
-
-a {
+#welcomeh1, a, #links {
     color: #199515;
 }
 
@@ -45,4 +47,8 @@ a {
 #welcome_intro_text {
     font-size: 18px;
     color: #199515;
+}
+
+#links {
+    margin-top: 3rem;
 }
