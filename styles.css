@@ -2,11 +2,12 @@ html {
     display: flex;
     background-color: black;
     font-family: "Orbitron";
+    padding: 2rem;
 }
 
 @media (hover: hover) {
     a:hover {
-        color: skyblue;
+        color: white;
         transition: 0.5s;
     }
 }
@@ -27,12 +28,12 @@ html {
     color: white;
 }
 
-h1 {
-    color: white;
+#welcomeh1 {
+    color: #199515;
 }
 
 a {
-    color: white;
+    color: #199515;
 }
 
 #navbar {
@@ -43,5 +44,5 @@ a {
 
 #welcome_intro_text {
     font-size: 18px;
-    color: white;
+    color: #199515;
 }
